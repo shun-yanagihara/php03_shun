@@ -1,4 +1,7 @@
 <?php
+//最初にSESSIONを開始！！ココ大事！！
+session_start();
+
 //１．PHP
 //select.phpの[PHPコードだけ！]をマルっとコピーしてきます。
 //※SQLとデータ取得の箇所を修正します。

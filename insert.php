@@ -1,4 +1,7 @@
 <?php
+//最初にSESSIONを開始！！ココ大事！！
+session_start();
+
 //1. POSTデータ取得
 $name   = $_POST["name"];
 $url  = $_POST["url"];
@@ -40,7 +43,7 @@ if($status==false){
 }else{
     //*** function化を使う！*****************
     // header("Location: index.php");
-    redirect("index.php")
+    redirect("index.php");
     exit();
 }
 

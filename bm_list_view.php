@@ -1,4 +1,7 @@
 <?php
+//最初にSESSIONを開始！！ココ大事！！
+session_start();
+
 include("funcs.php");  //funcs.phpを読み込む（関数群）
 $pdo = db_conn();      //DB接続関数
 
